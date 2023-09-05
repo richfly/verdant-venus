@@ -1,0 +1,14 @@
+---
+import {Image} from 'astro:assets'
+import UserImage from '../../public/images/ellipse-1.svg'
+---
+<div class="flex flex-col w-72 h-screen bg-slate-800 font-mono mr-4">
+    <h1 class="text-white text-4xl font-semibold inline-flex justify-center mt-4">Shape to Ship</h1>
+    <div class="mt-auto inline-flex justify-center items-center gap-4 m-8">
+        <Image src={UserImage} alt="User Profile Picture" />
+            <div class="relative">
+                <p class="text-white line-clamp-1">Rich Fly</p>
+                <p class="text-stone-400 line-clamp-1">Company Name Company Name</p>
+            </div>
+    </div>    
+</div>
